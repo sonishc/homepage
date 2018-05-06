@@ -70,11 +70,16 @@
   }
 
   .container h2 {
+    display: inline-block;
+    margin: 5vh 0 2vh 0;
     font: 30px 'Pangolin', cursive;
+    border: 2px solid #313332;
+    background-color: #fff;
+    padding: 1%;
   }
 
   div {
-    border: 1px solid black;   
+    border: 1px solid black;    
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
@@ -98,7 +103,7 @@
     position: relative;
     max-width: 22vw;
     border-radius: 50%;
-    border: 8px dotted #01B3B6;
+    border: 8px dotted #707372;
   }
 
   .contact ul {
@@ -111,13 +116,14 @@
   }
 
   .introduction {
-    text-align: justify;
+    margin-top: 5vh;
   }
   .introduction h2 {
-    text-align: left;
   }
   .introduction p{
     padding: 2%;
+    background-color: #fff;
+    text-align: justify;
   }
   .introduction p::first-letter { 
     font-size: 200%;
@@ -125,13 +131,31 @@
     padding-left: 5%; 
   }
 
-  .timeline {}
   .timeline h2 {
     text-align: left;
   }
+  .timeline i {
+    margin-left: 30vw;
+  }
+  .timeline ul{
+    margin: 0 auto;
+  }
+  .timeline ul li{
+    font-size: 30px;
+    margin-top: 8vh;
+    padding-top: 3.5vh;
+    padding-left: 15vw;    
+  }
 
-  .additional h2 {
-    text-align: left;
+  .additional p{
+    padding: 5%;
+    background-color: #fff;
+    border-radius: 10% 10% 0 0;
+    border-top: 2px dotted #000;
+    border-bottom: 12px dotted #000;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+    text-align: justify;
   }
 
 }
