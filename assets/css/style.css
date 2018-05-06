@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin|Playfair+Display|Roboto+Condensed');
+  /* Font usage
+      font-family: 'Pangolin', cursive;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-family: 'Playfair Display', serif;
+  */
+@media only screen and (max-width: 600px) {
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+    background-color: #F2FBF8;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  hr {
+    width: 90%;
+    background-color: #F7781D;
+	  border-top: 4px dashed #8c8b8b;
+  }
+  hr:after {
+    content: '';
+    display: block;
+    margin-top: 2px;
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+  }
+
+  /* Custom style start */
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container h2 {
+    display: inline-block;
+    margin: 5vh 0 2vh 0;
+    font: 30px 'Pangolin', cursive;
+    border: 2px solid #313332;
+    background-color: #fff;
+    padding: 1%;
+  }
+
+  div {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: no-wrap;
+    height: 20vh;
+  }
+  .header div{
+    align-self: center;
+  }
+  .header h1 {
+    font-size: 35px;
+    color: #EF4957;
+    text-shadow: 2px 2px #85B3AF;
+  }
+  .header img {
+    position: relative;
+    max-width: 22vw;
+    border-radius: 50%;
+    border: 8px dotted #D6BC8B;
+    box-shadow: 2px 4px 2px black;
+  }
+
+  .contact ul {
+    display: inline;
+    background-color: #fff;
+    border: 1px solid black;
+  }
+  .contact ul li {  
+    display: inline;
+  }
+
+  .introduction {
+    margin-top: 5vh;
+  }
+  .introduction h3 {
+    color: #707372;
+    display:inline;
+    padding: 6% 8% 3% 8%;
+    font-size: 30px;
+  }
+  .introduction p{
+    padding: 2%;
+    text-align: justify;
+  }
+  .introduction p::first-letter { 
+    font-size: 200%;
+    color: #D6BC8B;
+  }
+
+  .timeline ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 5vh;
+    font-size: 25px;
+    border: 1px solid #D6BC8B;
+    background-color: #fff;
+    border-radius: 0 20% 0 0;
+    padding: 2%;
+  }
+  .timeline .fa-li{
+    color: #D6BC8B;
+  }
+
+  .additional div{
+    padding: 5%;
+    background-color: #fff;
+    border-radius: 10% 10% 0 0;
+    border-top: 2px dotted #000;
+    border-bottom: 12px dotted #000;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+    text-align: justify;
+  }
+  .additional div ul li {
+    font-size: 22px;
+    padding-top: 2vh;
+    border: 1px solid black;
+    padding-left: 2%;
+  }
+  .additional div .pg-bar {
+    border: 0;
+  }
+  .additional div ul li:first-child {
+    font-size: 25px;
+    text-align: center;
+    border: 0;
+    background-color: #D6BC8B;
+    border-radius: 50% 50% 0 0;
+    margin-top: 2vh;
+  }
+
+  .additional .final-sentance {
+    text-align: center;
+    font-size: 30px;
+  }
+}
